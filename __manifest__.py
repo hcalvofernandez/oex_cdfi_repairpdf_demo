@@ -10,6 +10,8 @@
     'author': "Odoo experts",
     'category': 'Acount',
     'version': '0.1',
+    
+    "depends": ["account"],
   
     'data': [
     ],
