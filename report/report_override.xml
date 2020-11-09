@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <report string="Imprimir Plantilla Demanda"
-            id="action_report_plantilla_demanda"
-            model="demanda.plantilla.logistica"
-            report_type="qweb-pdf"
-            name="demanda.qweb_report_plantilla_demanda"
-            file="demanda.action_report_plantilla_demanda"
-            attachment_use="True"
-            print_report_name="'Modelo - %s ' % object.name"
-        />
-
-        <report string="Imprimir Modelo Solicitud"
-            id="action_report_modelo_solicitud"
-            model="demanda.solicitud.generica"
-            report_type="qweb-pdf"
-            name="demanda.qweb_report_modelo_solicitud"
-            file="demanda.action_report_modelo_solicitud"
-            attachment_use="True"
-            print_report_name="'TFT - %s ' % object.name"
-        />
-
-        <report string="Imprimir Modelo Vestuario"
-            id="action_report_modelo_vestuario"
-            model="demanda.solicitud.vestuario"
-            report_type="qweb-pdf"
-            name="demanda.qweb_report_modelo_vestuario"
-            file="demanda.action_report_modelo_vestuario"
-            attachment_use="True"
-            print_report_name="'TFT - %s ' % object.name"
-        />
-
+       
     </data>
 </odoo>
